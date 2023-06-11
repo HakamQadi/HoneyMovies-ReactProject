@@ -1,0 +1,23 @@
+* {
+    color: black;
+}
+
+.left_container {
+    text-align: left;
+}
+
+#btn_container {
+    display: flex;
+    justify-content: space-between;
+
+    /* background-color: red; */
+
+    width: 13rem;
+    margin-top: 2rem;
+}
+
+@media(max-width: 768px) {
+    #details_img{
+        display: none;
+    }
+}

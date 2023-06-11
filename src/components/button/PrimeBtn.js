@@ -1,10 +1,11 @@
 import React from 'react'
 import './PrimeBtn.css'
+import { Link } from 'react-router-dom'
 
 const PrimeBtn = () => {
   return (
     <>
-      <button id='PrimeBtn'>More info</button>
+      <Link to={'Dcard/'} id='PrimeBtn'>More info</Link>
     </>
   )
 }

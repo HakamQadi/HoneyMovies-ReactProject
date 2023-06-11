@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+#myNav {
+    text-align: start;
+
+    background-color: red;
+}
+
+#input {
+    color: #afb0b6;
+    border: none;
+    background-color: #3c414f !important;
+}
+
+#input::placeholder {
+    color: #8b8c92;
+}
+
+.collapse ul li {
+    font-size: larger;
+    font-weight: bolder;
+}
