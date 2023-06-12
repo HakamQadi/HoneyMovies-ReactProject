@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Axios from 'axios';
-import PrimeBtn from '../button/PrimeBtn';
 import SecondBtn from '../button/SecondBtn';
 import './Card.css'
 import { Link } from 'react-router-dom';
