@@ -34,10 +34,10 @@ const Card = () => {
     return (
 
         <div className='container d-flex flex-column'>
-            <div className="d-flex w-25 m-auto py-5">
+            <div className="d-flex py-5 justify-content-center">
                 <input value={search} onChange={(e) => setSearch(e.target.value)} id='input' className="form-control me-2" type="search" placeholder="Search ..." aria-label="Search" />
             </div>
-            <h2 style={{
+            <h2 id='trending' style={{
                 alignSelf: 'start', marginBottom: '2rem',
                 background: " #F8B319",
                 boxShadow: ' 0px 4px 9px rgba(0, 0, 0, 0.25)',

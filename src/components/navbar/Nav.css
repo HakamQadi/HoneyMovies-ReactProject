@@ -7,6 +7,8 @@
 }
 
 #input {
+    width: 20rem;
+
     color: #afb0b6;
     border: none;
     background-color: #3c414f !important;
@@ -19,4 +21,10 @@
 .collapse ul li {
     font-size: larger;
     font-weight: bolder;
+}
+
+@media(max-width: 480px) {
+    #input {
+        width: 75%;
+    }
 }

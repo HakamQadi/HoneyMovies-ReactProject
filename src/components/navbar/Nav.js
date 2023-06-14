@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import logo from '../../assets/icns/logo2.png';
 import './Nav.css';
 import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
+    useEffect(() => {
+        window.bootstrap?.init();
+    }, []);
     return (
         <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="container">
                 <img className="navbar-brand" alt='logo' src={logo} />
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">

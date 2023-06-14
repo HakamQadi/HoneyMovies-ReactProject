@@ -1,3 +1,10 @@
-*{
+* {
     color: white;
+}
+
+@media(max-width: 480px) {
+    #top_m,
+    #top_s {
+        margin-left: 3.5rem;
+    }
 }

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import PrimeBtn from './../../components/button/PrimeBtn';
 import SecondBtn from './../../components/button/SecondBtn';
