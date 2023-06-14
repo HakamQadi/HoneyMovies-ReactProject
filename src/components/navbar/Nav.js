@@ -1,13 +1,11 @@
-import React, { useEffect } from 'react';
+// import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import'bootstrap/dist/js/bootstrap'
 import logo from '../../assets/icns/logo2.png';
 import './Nav.css';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Nav = () => {
-    useEffect(() => {
-        window.bootstrap?.init();
-    }, []);
     return (
         <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="container">
