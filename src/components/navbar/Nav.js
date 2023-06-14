@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import'bootstrap/dist/js/bootstrap'
 import logo from '../../assets/icns/logo2.png';
 import './Nav.css';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
     return (
